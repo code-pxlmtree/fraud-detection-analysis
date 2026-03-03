@@ -44,3 +44,19 @@ The high amount risk flag showed that amounts that were classified as High Amoun
 The night transaction risk flag showed similar findings with transactions in the late-night and early morning period (22:00 - 05:00) had a fraud probability of **10.37%**, while transactions in the other hours of the day had a fraud probability of 0.46% 
 
 <img width="741" height="574" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/dc086820-9933-4520-8262-6631ffb8005b" />
+
+## Business Recommendations
+Based on the findings, the bank could:
+-Trigger step-up authentication for high-value transactions
+-Increase monitoring intensity during high-risk hours (22:00 - 05:00)
+-Assign higher fraud scores to transactions meeting multiple risk conditions
+-Implement anomaly-based alerts for extreme amount deviations
+
+## Skills Demonstrated
+This project simulates how banks and fintech institutions may approach fraud detection and it showcases practical skills in:
+1. Python (Pandas, Matplotlib)
+2. Feature engineering
+3. Risk analysis
+4. Business interpretation of data
+
+## Conclusion
