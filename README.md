@@ -39,7 +39,7 @@ The boxplots did not reveal any outliers for fraud activities. Which shows that 
 ### Risk Flags
 We looked at two rule-based fraud indicators in order to see what is the probability for a fraudulent transaction to occur in these fraud risk situations 1. High Amount Risk Flag and 2. Night Transction Risk Flag.
 
-The high amount risk flag showed that amounts that were classified as High Amounts (In the 95th percentile of transaction amount) had a fraud probability of **8.68%** while normal transactions only had a fraud probability of 0.15%. This demonstrates that there is a substantial increase in fraud probability when transaction amounts exceed a risk threshold.
+The high amount risk flag showed that amounts that were classified as High Amounts (In the 95th percentile of transaction amount) had a fraud probability of **8.68%** while normal transactions only had a fraud probability of 0.15%. This demonstrates that there is a substantial increase (~59x increase) in fraud probability when transaction amounts exceed a risk threshold.
 
 The night transaction risk flag showed similar findings with transactions in the late-night and early morning period (22:00 - 05:00) had a fraud probability of **10.37%**, while transactions in the other hours of the day had a fraud probability of 0.46% 
 
