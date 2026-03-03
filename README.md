@@ -42,3 +42,5 @@ We looked at two rule-based fraud indicators in order to see what is the probabi
 The high amount risk flag showed that amounts that were classified as High Amounts (In the 95th percentile of transaction amount) had a fraud probability of **8.68%** while normal transactions only had a fraud probability of 0.15%. This demonstrates that there is a substantial increase in fraud probability when transaction amounts exceed a risk threshold.
 
 The night transaction risk flag showed similar findings with transactions in the late-night and early morning period (22:00 - 05:00) had a fraud probability of **10.37%**, while transactions in the other hours of the day had a fraud probability of 0.46% 
+
+<img width="741" height="574" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/dc086820-9933-4520-8262-6631ffb8005b" />
