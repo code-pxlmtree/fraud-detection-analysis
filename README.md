@@ -25,8 +25,20 @@ Note:
 <img width="1373" height="208" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/dc752f80-2a60-4185-8198-37fae7f12d40" />
 
 ### Time of Day Fraud Spikes
-I looked at what hours fraudulent transactions occurred the most. It was clear that fraud activity increased significantly during late-night and early morning hours (22:00 - 03:00) with minimal to no fraud activities during business hours.
+I looked at what hours fraudulent transactions occurred the most. It was clear that fraud activity increased significantly during late-night and early morning hours (22:00 - 03:00) with minimal fraud activities during business hours.
 
 <img width="867" height="734" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/6de51e35-0433-4b62-bf76-dc3f647b891f" />
 
-This suggests that fraud detection and prevention applications should be implemented duting high-risk hours so as to limit cost to the bank.
+This suggests that fraud detection and prevention applications should be implemented during high-risk hours so as to limit cost to the bank.
+
+### Amount Anomalies
+The boxplots did not reveal any outliers for fraud activities. Which shows that the bank has not suffered a high amount fraud transaction therefore measures put in place for fraud prevention are working as designed for the most part.
+
+<img width="914" height="713" alt="Screenshot (178)" src="https://github.com/user-attachments/assets/70094db5-fcd1-43b0-9945-81f5b0a8b85a" />
+
+### Risk Flags
+We looked at two rule-based fraud indicators in order to see what is the probability for a fraudulent transaction to occur in these fraud risk situations 1. High Amount Risk Flag and 2. Night Transction Risk Flag.
+
+The high amount risk flag showed that amounts that were classified as High Amounts (In the 95th percentile of transaction amount) had a fraud probability of **8.68%** while normal transactions only had a fraud probability of 0.15%. This demonstrates that there is a substantial increase in fraud probability when transaction amounts exceed a risk threshold.
+
+The night transaction risk flag showed similar findings with transactions in the late-night and early morning period (22:00 - 05:00) had a fraud probability of **10.37%**, while transactions in the other hours of the day had a fraud probability of 0.46% 
