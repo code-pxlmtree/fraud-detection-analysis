@@ -59,4 +59,5 @@ This project simulates how banks and fintech institutions may approach fraud det
 3. Risk analysis
 4. Business interpretation of data
 
-## Conclusion
+## References
+- Quang Dong, 2023 https://medium.com/quant-ai-lab/fraud-credit-card-transaction-dataset-feature-engineering-exploratory-data-analysis-63001299d429
