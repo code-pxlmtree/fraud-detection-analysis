@@ -47,10 +47,10 @@ The night transaction risk flag showed similar findings with transactions in the
 
 ## Business Recommendations
 Based on the findings, the bank could:
--Trigger step-up authentication for high-value transactions
--Increase monitoring intensity during high-risk hours (22:00 - 05:00)
--Assign higher fraud scores to transactions meeting multiple risk conditions
--Implement anomaly-based alerts for extreme amount deviations
+- Trigger step-up authentication for high-value transactions
+- Increase monitoring intensity during high-risk hours (22:00 - 05:00)
+- Assign higher fraud scores to transactions meeting multiple risk conditions
+- Implement anomaly-based alerts for extreme amount deviations
 
 ## Skills Demonstrated
 This project simulates how banks and fintech institutions may approach fraud detection and it showcases practical skills in:
